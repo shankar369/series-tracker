@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Button, Card } from "react-bootstrap";
-import "./../Styles/Card.css";
-import Netflix from "./../Pages/Netflix";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-// import React from 'react'
+import { Link } from "react-router-dom";
+import "./MyCard.css";
 
 class MyCard extends Component {
   constructor(props) {
@@ -41,7 +39,7 @@ class MyCard extends Component {
               style={{ backgroundColor: "" }}
               onClick={this.NetflixHandler}
             >
-              Click Me!
+              <Link to={`/${this.props.ott}`}>Click Me!</Link>
             </Button>
           </Card.Body>
         </Card>
