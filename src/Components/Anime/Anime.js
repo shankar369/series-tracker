@@ -4,8 +4,8 @@ import MyCard from "../MyCard/MyCard";
 export class Anime extends Component {
   render() {
     return (
-      <div>
-        {/* <MyCard ott="Movies" color="#E50914" /> */}
+      <div className="flex-container">
+        <MyCard ott="Movies" color="#E50914" />
         <MyCard ott="Series" color="#00A8E1" />
       </div>
     );

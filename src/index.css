@@ -1,7 +1,11 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+body, html, #root {
+  height: 100%;
+  min-height: 100%;
+}
+
+#root{
+  /* height: auto; */
+  background-color: blue;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");

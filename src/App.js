@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-
 import Navbar from "./Components/Navbar/Navbar";
 import Routes from "./Routes";
 
@@ -10,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Routes />
+        <Routes className="myClass"/>
       </div>
     );
   }

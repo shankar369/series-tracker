@@ -1,0 +1,10 @@
+.HomeStyles{
+    /* background-color: blue;  */
+    flex-direction: row; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@import '~bootstrap/dist/css/bootstrap.css';

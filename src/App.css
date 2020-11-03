@@ -1,5 +1,15 @@
-/* {
-    background-color: blue; 
-} */
+.App {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; 
+    justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.myClass{
+    align-items: center; 
+    justify-content: center;
+}
 
 @import '~bootstrap/dist/css/bootstrap.css';
